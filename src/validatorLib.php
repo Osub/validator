@@ -426,7 +426,7 @@ class validatorLib
      * @param $vStr
      * @return bool
      */
-     public function id_card($vStr)
+     public static function id_card($vStr)
      {
 	$vCity = array(
 		'11','12','13','14','15','21','22',
